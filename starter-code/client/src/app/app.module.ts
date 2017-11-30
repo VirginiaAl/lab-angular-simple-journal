@@ -22,7 +22,7 @@ import {JournalService} from '../services/journal.service';
     HttpModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [JournalService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
